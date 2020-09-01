@@ -61,5 +61,5 @@ function flash(btnClicked) {
   document.querySelector("." + btnClicked).classList.add("pressed");
   setTimeout(function(){
     document.querySelector("." + btnClicked).classList.remove("pressed");
-  }, 500);
+  }, 100);
 }
